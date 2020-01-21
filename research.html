@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<title>Silvia Metelli</title>
+<link rel="icon" href="img/snail.png" type="image/png">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140034987-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140034987-1');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/font.css">
+<style>
+p.indent1 {margin-left: 30px;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
+.collapsible_empty {background-color: lightgrey;padding: 5px;width: 100%;border: none;text-align: left;}
+.collapsible {background-color: lightgrey;cursor: pointer;
+  padding: 5px;width: 100%;border: none;text-align: left;outline: none;}
+.active, .collapsible:hover {background-color: #ffffcc;}
+.content {padding: 20px 20px;display: none;overflow: hidden;background-color: #f1f1f1;}
+
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:14px; }
+.w3-half img{margin-bottom:100px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.left{float:left;padding:6px;margin-bottom: 0.8cm;}
+.right{float:right;padding:0px;margin-bottom: 0cm;}
+</style>
+</head>
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-pale-yellow w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <img class="left" src="img/profile.jpeg" style="width:100%">
+
+    <h3 class="w3-padding-64"><br><br>SILVIA METELLI</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a>
+    <a href="research.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research</a>
+    <!--<a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a>-->
+    <!--<a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> -->
+    <!--<a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> -->
+ <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-pale-yellow w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-pale-yellow w3-margin-right" onclick="w3_open()">☰</a>
+  <span>SILVIA METELLI</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:240px">
+
+
+
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Research -->
+  <div class="w3-container" id="research" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Research.</b></h1>
+
+    <hr style="width:50px;border:5px black" class="w3-round">
+
+    <!--<img class="right" src="Net.png" style="width:50%" onclick="onClick(this)" alt="Example of computer NetFlow data, colored by port ">-->
+
+
+
+    <p> Dynamic networks are complex systems evolving over time and the analysis of their structure is non-trivial. The study of computer networks can be particularily challenging mainly due to
+      issues in terms of computational speed and scalability of the methods.
+
+
+      <br>
+      <br>
+<!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+      <h1 class="w3-xlarge w3-text-black"><b>Working Papers.</b></h1>
+<!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+      <button class="collapsible_empty" >
+        <font size="-1">
+      Topic modelling for computer network data
+        </font>
+                <br>
+                <font color="gray" size="-2">
+                  Silvia Metelli and Nicholas Heard
+                  <i></i>
+                </font>
+      </button>
+      <!-- <div class="content" >
+        <br>
+        Abstract:<p class="indent1" ><font size="-1">
+
+          </font></p>
+        <a href="">Link to paper.  </a>
+      </div> -->
+
+
+
+      <br><br>
+<!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+      <button class="collapsible_empty" >
+        <font size="-1">
+      Data fusion using Quantile Random Forests for cyber security data
+        </font>
+                <br>
+                <font color="gray" size="-2">
+                  Silvia Metelli and Nicholas Heard
+                  <i></i>
+                </font>
+      </button>
+      <!-- <div class="content" >
+        <br>
+        Abstract:<p class="indent1" ><font size="-1">
+
+          </font></p>
+        <a href="">Link to paper.  </a>
+      </div> -->
+
+
+
+      <br><br>
+<!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+      <h1 class="w3-xlarge w3-text-black"><b>Publications.</b></h1>
+<!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+
+      <button class="collapsible_empty" >
+        <font size="-1">
+Introducing a Predictive Score for Successful Treatment Free Remission in Chronic Myeloid Leukemia (CML)
+    </font>
+                <br>
+                <font color="gray" size="-2">
+                Simone Claudiani, Silvia Metelli, Rafiee Kamvar, Richard Szydlo, Afzal Khan, Jenny Byrne, Paolo Gallipoli, Simon J Bulley, Gillian A. Horne, Kate Rothwell, Mhairi Copland, Richard E Clark, Jamshid S Khorashad, Letizia Foroni, Dragana Milojkovic, Jane F Apperley.
+                  <i> Blood, The Journal of the American Society of Hematology 134 (Supplement_1), 26-26, 2019</i>
+                </font>
+                    
+      </button>
+      <div class="content" >
+        <br>
+      </div>
+
+
+<br><br>
+
+      <button class="collapsible" >
+        <font size="-1">
+On Bayesian New Edge Prediction and Anomaly Detection in Computer Networks
+        </font>
+                <br>
+                <font color="gray" size="-2">
+                  Silvia Metelli and Nicholas Heard,
+                  <i>Annals of Applied Statistics, 2019</i>
+                </font>
+      </button>
+      <div class="content" >
+        <br>
+        Abstract:<p class="indent1" ><font size="-1">
+          Monitoring computer network traffic for anomalous behaviour presents an important security challenge. Arrivals of new edges in a network graph represent connections between a client and server pair not previously observed, and in rare cases these might suggest the presence
+          of intruders or malicious implants. We propose a Bayesian model and anomaly detection method for simultaneously characterising existing network structure and modelling likely new edge formation. The method is demonstrated on real computer network authentication data and successfully identifies some machines which are known to be compromised.
+        </font></p>
+        <!-- <a href="">Link to paper.  </a> -->
+      </div>
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+      <button class="collapsible" >
+        <font size="-1">
+        Model-based clustering and new edge modelling in large computer networks
+        </font>
+                <br>
+                <font color="gray" size="-2">
+                  Silvia Metelli and Nicholas Heard,
+                  <i>Intelligence and Security Informatics (ISI), 2016 IEEE Conference on, 91-96, 2016</i>
+                </font>
+      </button>
+      <div class="content" >
+        <br>
+        Abstract:<p class="indent1" ><font size="-1">
+Computer networks are complex and the analysis of their structure in search for anomalous behaviour is both a challenging and important task for cyber security. For instance, new edges, i.e. connections from a host or user to a computer that has not been connected to before, provide potentially strong statistical evidence for detecting anomalies. Unusual new edges can sometimes be indicative of both legitimate activity, such as automated update requests permitted by the client, and illegitimate activity, such as denial of service (DoS) attacks to cause service disruption or intruders escalating privileges by traversing through the host network. In both cases, capturing and accumulating evidence of anomalous new edge formation represents an important security application. Computer networks tend to exhibit an underlying cluster structure, where nodes are naturally grouped together based on similar connection patterns. What constitutes anomalous behaviour may strongly differ between clusters, so inferring these peer groups constitutes an important step in modelling the types of new connections a user would make. In this article, we present a two-step Bayesian statistical method aimed at clustering similar users inside the network and simultaneously modelling new edge activity, exploiting both overall-level and cluster-level covariates.
+        </font></p>
+        <a href="https://ieeexplore.ieee.org/abstract/document/7745449">Link to paper.  </a>
+      </div>
+
+
+
+<br><br>
+
+
+
+      <button class="collapsible" >
+        <font size="-1">
+        Bayesian estimation with integrated nested Laplace approximation for binary logit mixed models
+        </font>
+                <br>
+                <font color="gray" size="-2">
+                  Leonardo Grilli, Silvia Metelli, Carla Rampichini,
+                  <i>Journal of Statistical Computation and Simulation 85 (13), 2718-2726, 2015</i>
+                </font>
+      </button>
+      <div class="content" >
+        <br>
+        Abstract:<p class="indent1" ><font size="-1">
+      In multilevel models for binary responses, estimation is computationally challenging due to the need to evaluate intractable integrals. In this paper, we investigate the performance of integrated nested Laplace approximation (INLA), a fast deterministic method for Bayesian inference. In particular, we conduct an extensive simulation study to compare the results obtained with INLA to the results obtained with a traditional stochastic method for Bayesian inference (MCMC Gibbs sampling), and with maximum likelihood through adaptive quadrature. Particular attention is devoted to the case of small number of clusters. The specification of the prior distribution for the cluster variance plays a crucial role and it turns out to be more relevant than the choice of the estimation method. The simulations show that INLA has an excellent performance as it achieves good accuracy (similar to MCMC) with reduced computational times (similar to adaptive quadrature).
+    </font></p>
+        <a href="https://www.tandfonline.com/doi/abs/10.1080/00949655.2014.935377">Link to paper.  </a>
+      </div>
+
+
+<br><br>
+
+
+
+      <button class="collapsible" >
+        <font size="-1">
+        Modelling new edge formation in a computer network through Bayesian variable selection
+        </font>
+                <br>
+                <font color="gray" size="-2">
+                  Silvia Metelli and Nicholas Heard,
+                  <i>Intelligence and Security Informatics Conference (JISIC), 2014 IEEE Joint, 272-275, 2014</i>
+                </font>
+      </button>
+      <div class="content" >
+        <br>
+        Abstract:<p class="indent1" ><font size="-1">
+      Anomalous connections in a computer network graph can be a signal of malicious behaviours. For instance, a compromised computer node tends to form a large number of new client edges in the network graph, connecting to server IP (Internet Protocol) addresses which have not previously been visited. This behaviour can be caused by malware (malicious software) performing a denial of service (DoS) attack, to cause disruption or further spread malware, alternatively, the rapid formation of new edges by a compromised node can be caused by an intruder seeking to escalate privileges by traversing through the host network. However, study of computer network flow data suggests new edges are also regularly formed by uninfected hosts, and often in bursts. Statistically detecting anomalous formation of new edges requires reliable models of the normal rate of new edges formed by each host. Network traffic data are complex, and so the potential number of variables which might be included in such a statistical model can be large, and without proper treatment this would lead to overfitting of models with poor predictive performance. In this paper, Bayesian variable selection is applied to a logistic regression model for new edge formation for the purpose of selecting the best subset of variables to include.
+    </font></p>
+        <a href="https://ieeexplore.ieee.org/abstract/document/6975590">Link to paper.  </a>
+      </div>
+
+
+
+
+      <br><br>
+      <br><br>
+      <br><br>
+
+
+
+
+
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<!--<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>-->
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>

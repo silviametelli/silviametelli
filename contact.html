@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<title>Silvia Metelli</title>
+<link rel="icon" href="img/snail.png" type="image/png">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140034987-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140034987-1');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/font.css">
+<style>
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:14px; }
+.w3-half img{margin-bottom:0px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.left{float:left;padding:6px;margin-bottom: 0.8cm;}
+.right{float:right;padding:0px;margin-bottom: 0cm;}
+</style>
+</head>
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-pale-yellow w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <img class="left" src="img/profile.jpeg" style="width:100%">
+
+    <h3 class="w3-padding-64"><br><br>SILVIA METELLI</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a>
+    <a href="research.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research</a>
+    <!--<a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a>-->
+    <!--<a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> -->
+    <!--<a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> -->
+ <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-pale-yellow w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-pale-yellow w3-margin-right" onclick="w3_open()">☰</a>
+  <span>SILVIA METELLI</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+
+
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+        <hr style="width:50px;border:5px black" class="w3-round">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+
+    </div>
+  </div>
+
+
+
+  <!-- Contact -->
+  <div class="w3-container" id="research" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-black"><b>Contact.</b></h1>
+     <hr style="width:50px;border:5px black" class="w3-round">
+
+
+
+   
+
+     <br>
+     <div class="contact">
+     <table width="80%">
+       <tr>
+         <td>
+       Postal Mail:
+           </td>
+           <td>
+     	Dr. Silvia Metelli <br>
+     	The Alan Turing Institute <br>
+     	Kings Cross <br>
+     	London, United Kingdom <br>
+     	NW1 2DB <br>
+           </td>
+     	</tr>
+     	<tr>
+     	  <td>
+
+
+
+
+     	    <tr>
+     	      <td>
+               <br />
+
+     	  Email:
+     	      </td>
+     	      <td>
+               <br />
+
+     		s.metelli13@imperial.ac.uk<br>
+         smetelli@turing.ac.uk
+         <br />
+     	      </td>
+     	    </tr>
+
+           <tr>
+         	  <td>
+               <br />
+
+         	    Other LINKS:
+
+         	  </td>
+         	  <td>
+               <br />
+
+      <a href="http://www.imperial.ac.uk/people/s.metelli13" style="color: #2874A6">My professional webpage</a>  <br />
+       <a href="https://www.linkedin.com/in/silvia-metelli-5a691190/" style="color: #2874A6">My LinkedIn</a> <br />
+       <a href="https://scholar.google.com/citations?user=-r7wTrsAAAAJ&hl=com" style="color: #2874A6">My GoogleScholar</a> <br />
+       <a href="https://www.researchgate.net/profile/Silvia_Metelli" style="color: #2874A6">My ResearchGate</a> <br />
+
+         	      </td>
+         	    </tr>
+
+       </table>
+
+       
+<!-- End page content -->
+</div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+
+
+</div>
+</div>
+</div>
+</html>
