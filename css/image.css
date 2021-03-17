@@ -12,3 +12,22 @@
   height: 100%;
   width: auto;
 }
+
+input-div {
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+.popup-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 3px;
+  width: 87%;
+  background: #ccc;
+  display: none;
+}
+.info {
+  cursor: pointer;
+}
