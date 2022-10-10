@@ -193,7 +193,7 @@ color: #0099CC
       <br><br>
 
  <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
-      <button class="collapsible_empty" >
+      <button class="collapsible" >
           <font size="-1">
               Disentangling interactions between components of complex digital health interventions  </font>
           <br>
@@ -202,6 +202,29 @@ color: #0099CC
               <i></i>
           </font>
       </button>
+      <div class="content" >
+          <br>
+      </button>
+          Abstract:          <br><br>
+
+
+          Networks of interventions can be used to summarise evidence from studies involving multiple treatments pertaining the same health condition,
+      and to compare their effectiveness. Complex interventions are increasingly encountered in networks of studies.
+      These interventions consist of multiple, potentially common and interactive components. When pooling results from studies involving complex
+      interventions, the main interest does not only revolve around whether the intervention works per se, but rather what components contribute
+      the most to the overall effectiveness and how they interact with each other. However, this is a statistically challenging problem as the
+      effects of interacting components are hard to disentangle and may have complicated causal pathways. Furthermore, complex interventions tend
+      to be very heterogeneous, due to increased variation across patient populations and interventions, which makes a reliable quantitative
+      synthesis more challenging. In this work, we propose a model that considers each intervention component as a potential mediator in the path
+      from treatment to outcome. We frame the mediating pathway as a novel Bayesian latent class model which allows to decompose each component
+      effect into additive effects of distinct mediating paths when there exist multiple mediators (i.e. components here) that are correlated and
+      interacting. A key underlying assumption of the model is to implicitly treat each combination of components as forming ‘their own’ class of
+      interventions, and so the model may naturally incorporate interactions as class-specific parameters and better explain between-study
+      variability. We illustrate our methods using both synthetic data and real-world data in the field of physical activity.
+      <br>
+      <br>
+          Manuscript under preparation (presented at 43rd ISCB Annual Conference, Aug 2022, Newcastle, UK)
+       </div>
       <br><br>
 
  <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
@@ -255,7 +278,7 @@ color: #0099CC
       <div class="content" >
           <br>
           <br>
-          Abstract:<p class="indent1" ><font size="-1">
+          Abstract:          <br><br>
           In a network meta-analysis, some of the collected studies may deviate markedly from the others, for example having very unusual effect sizes. These deviating studies can be regarded as outlying with respect to the rest of the network and can be influential on the pooled results. Thus, it could be inappropriate to synthesize those studies without further investigation. In this paper, we propose two Bayesian methods to detect outliers in a network meta-analysis via: (a) a mean-shifted outlier model and (b), posterior predictive p-values constructed from ad-hoc discrepancy measures. The former method uses Bayes factors to formally test each study against outliers while the latter provides a score of outlyingness for each study in the network, which allows to numerically quantify the uncertainty associated with being outlier. Furthermore, we present a simple method based on informative priors as part of the network meta-analysis model to down-weight the detected outliers. We conduct extensive simulations to evaluate the effectiveness of the proposed methodology while comparing it to some alternative, available outlier diagnostic tools. Two real networks of interventions are then used to demonstrate our methods in practice.
           <br><br>
       <a href="https://arxiv.org/pdf/2109.06559.pdf">Link to paper.  </a>
@@ -301,7 +324,7 @@ On Bayesian New Edge Prediction and Anomaly Detection in Computer Networks
       </button>
       <div class="content" >
         <br>
-        Abstract:<p class="indent1" ><font size="-1">
+          Abstract:          <br><br>
           Monitoring computer network traffic for anomalous behaviour presents an important security challenge. Arrivals of new edges in a network graph represent connections between a client and server pair not previously observed, and in rare cases these might suggest the presence
           of intruders or malicious implants. We propose a Bayesian model and anomaly detection method for simultaneously characterising existing network structure and modelling likely new edge formation. The method is demonstrated on real computer network authentication data and successfully identifies some machines which are known to be compromised.
         </font></p>
@@ -327,7 +350,7 @@ On Bayesian New Edge Prediction and Anomaly Detection in Computer Networks
       </button>
       <div class="content" >
         <br>
-        Abstract:<p class="indent1" ><font size="-1">
+          Abstract:          <br><br>
 Computer networks are complex and the analysis of their structure in search for anomalous behaviour is both a challenging and important task for cyber security. For instance, new edges, i.e. connections from a host or user to a computer that has not been connected to before, provide potentially strong statistical evidence for detecting anomalies. Unusual new edges can sometimes be indicative of both legitimate activity, such as automated update requests permitted by the client, and illegitimate activity, such as denial of service (DoS) attacks to cause service disruption or intruders escalating privileges by traversing through the host network. In both cases, capturing and accumulating evidence of anomalous new edge formation represents an important security application. Computer networks tend to exhibit an underlying cluster structure, where nodes are naturally grouped together based on similar connection patterns. What constitutes anomalous behaviour may strongly differ between clusters, so inferring these peer groups constitutes an important step in modelling the types of new connections a user would make. In this article, we present a two-step Bayesian statistical method aimed at clustering similar users inside the network and simultaneously modelling new edge activity, exploiting both overall-level and cluster-level covariates.
         </font></p>
         <a href="https://ieeexplore.ieee.org/abstract/document/7745449">Link to paper.  </a>
@@ -347,7 +370,7 @@ Computer networks are complex and the analysis of their structure in search for 
       </button>
       <div class="content" >
         <br>
-        Abstract:<p class="indent1" ><font size="-1">
+          Abstract:          <br><br>
       In multilevel models for binary responses, estimation is computationally challenging due to the need to evaluate intractable integrals. In this paper, we investigate the performance of integrated nested Laplace approximation (INLA), a fast deterministic method for Bayesian inference. In particular, we conduct an extensive simulation study to compare the results obtained with INLA to the results obtained with a traditional stochastic method for Bayesian inference (MCMC Gibbs sampling), and with maximum likelihood through adaptive quadrature. Particular attention is devoted to the case of small number of clusters. The specification of the prior distribution for the cluster variance plays a crucial role and it turns out to be more relevant than the choice of the estimation method. The simulations show that INLA has an excellent performance as it achieves good accuracy (similar to MCMC) with reduced computational times (similar to adaptive quadrature).
     </font></p>
         <a href="https://www.tandfonline.com/doi/abs/10.1080/00949655.2014.935377">Link to paper.  </a>
@@ -367,7 +390,7 @@ Computer networks are complex and the analysis of their structure in search for 
       </button>
       <div class="content" >
         <br>
-        Abstract:<p class="indent1" ><font size="-1">
+          Abstract:          <br><br>
       Anomalous connections in a computer network graph can be a signal of malicious behaviours. For instance, a compromised computer node tends to form a large number of new client edges in the network graph, connecting to server IP (Internet Protocol) addresses which have not previously been visited. This behaviour can be caused by malware (malicious software) performing a denial of service (DoS) attack, to cause disruption or further spread malware, alternatively, the rapid formation of new edges by a compromised node can be caused by an intruder seeking to escalate privileges by traversing through the host network. However, study of computer network flow data suggests new edges are also regularly formed by uninfected hosts, and often in bursts. Statistically detecting anomalous formation of new edges requires reliable models of the normal rate of new edges formed by each host. Network traffic data are complex, and so the potential number of variables which might be included in such a statistical model can be large, and without proper treatment this would lead to overfitting of models with poor predictive performance. In this paper, Bayesian variable selection is applied to a logistic regression model for new edge formation for the purpose of selecting the best subset of variables to include.
     </font></p>
         <a href="https://ieeexplore.ieee.org/abstract/document/6975590">Link to paper.  </a>
@@ -393,7 +416,7 @@ Computer networks are complex and the analysis of their structure in search for 
       </button>
       <div class="content" >
           <br>
-          Abstract:<p class="indent1" ><font size="-1">
+          Abstract:          <br><br>
           Background
           There is no consensus on the most efficient catheter ablation (CA) strategy for patients with atrial fibrillation (AF). The objective of this study was to compare the efficacy and safety of different CA strategies for AF ablation through network meta-analysis (NMA).
           <br>
@@ -427,7 +450,7 @@ Computer networks are complex and the analysis of their structure in search for 
       </button>
       <div class="content" >
           <br>
-          Abstract:<p class="indent1" ><font size="-1">
+          Abstract:          <br><br>
           Objective: Meta-analyses of observational studies are frequently published in the literature, but they are generally considered suboptimal to those involving randomised controlled trials (RCTs) only. This is due to the increased risk of biases that observational studies may entail as well as because of the high heterogeneity that might be present. In this article, we highlight aspects of meta-analyses with observational studies that need more careful consideration in comparison to meta-analyses of RCTs.
           <br>
           <br>
@@ -460,7 +483,7 @@ Computer networks are complex and the analysis of their structure in search for 
       <div class="content" >
           <br>
           <br>
-          Abstract:<p class="indent1" ><font size="-1">
+          Abstract:          <br><br>
           <a href="https://ashpublications.org/blood/article/134/Supplement_1/26/427844/Introducing-a-Predictive-Score-for-Successful"> Blood Abstract here </a>
       </div>
 
