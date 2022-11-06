@@ -34,9 +34,9 @@ body {font-size:12px; }
 
   body{
   background-image: url("img/Netcc.png");
-  background-size:750px 570px;
+  background-size:740px 570px;
   background-repeat: no-repeat;
-  background-position: right 40px bottom 20px;
+  background-position: right 70px bottom 105px;
   <!--margin-right: 20px;-->
 
   }
@@ -190,6 +190,66 @@ color: #0099CC
       <a  style="text-decoration: None; color: royalblue" href="https://wimlworkshop.org"> WiML Mentorship Program </a>
       <br>
       <img src = 'img/hybrid.png', width="190" height="25" style='vertical-align: middle; margin-left: 1px' /> </h5>
+
+
+      <br>   <br><br>
+
+      <html>
+      <head>
+          <title> Horizontal Marquee News ticker using Html & Css </title>
+          <style>
+              .blue {
+                  background: #ffffff;
+              }
+
+
+              .news {
+                  /*box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(122, 114, 114, 0.5);*/
+                  width: 890px;
+                  margin: 0px auto;
+                  overflow: hidden;
+                  border-radius: 0px;
+                  padding: -10px;
+                  -webkit-user-select: none;
+              }
+
+              .news span {
+                  float: left;
+                  color: black;
+                  padding: 20px;
+                  position: relative;
+                  /*top: 1%;*/
+                  /*box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4);*/
+                  font: 13px 'Raleway', Helvetica, Arial, sans-serif;
+                  -webkit-font-smoothing: antialiased;
+                  -webkit-user-select: none;
+                  cursor: pointer;
+              }
+
+              .text1{
+                  box-shadow:none !important;
+                  width: 750px;
+              }
+          </style>
+      </head>
+      <body>
+      <div class="news blue">
+          <span>News</span><span class="text1" ><marquee>7/11/22 I will be talking at
+       <a href="https://www.meetup.com/fr-FR/paris-women-in-machine-learning-data-science/events/289529860/"
+          style="color: purple"><b>Paris WIMLDS event</b></a> on Dec 1, come join us!
+      &nbsp &nbsp &nbsp &nbsp  &nbsp 3/11/22 NMAstudio app to be featured in the Plotly curated
+      <a href="https://dash-demo.plotly.host/plotly-dash-500/"
+         style="color: purple"><b>list of Dash apps</b></a>!
+      &nbsp &nbsp &nbsp &nbsp &nbsp  10/06/22 I will be talking at ISCB43 in Newcastle on Aug 23 in the session "Heterogeneity of treatment effects"
+      &nbsp &nbsp &nbsp &nbsp &nbsp  5/05/22 I will be teaching at the
+      <a href="https://www.cer-methods.com/2021/12/09/nmacourse/"
+         style="color: purple"><b>three-day NMA workshop</b></a> (organised by Anna Chaimani) in Biarritz!
+
+  </marquee></span>
+      </div>
+      </body>
+      </head>
+      </html>
 
 
 <!-- End page content -->
